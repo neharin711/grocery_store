@@ -1,0 +1,50 @@
+/* Style for the body and background */
+body {
+    background: linear-gradient(to bottom right, #ff69b4, #8a2be2); /* Pink and Violet Gradient */
+    font-family: "Your Desired Font", sans-serif; /* Change "Your Desired Font" to your preferred font family */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Style for the main title */
+h1 {
+    color: #000000; /* Black text */
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/* Style for the login buttons */
+button {
+    background: linear-gradient(to bottom right, #f5eff2, #f7f5f9); /* Pink and Violet Gradient */
+    color: #000000; /* Black text */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to bottom right, #e9e7e8, #ece9ed); /* Slightly darker pink and violet on hover */
+}
+
+/* Style for link hover effect */
+a {
+    text-decoration: none;
+    color: #000000; /* Black text */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #4a331f; /* Slightly darker brown on hover */
+}

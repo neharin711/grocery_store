@@ -1,0 +1,54 @@
+/* Style for the body and background */
+body {
+    background: linear-gradient(to bottom right, #ff69b4, #8a2be2); /* Violet and Pink Gradient */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the login container */
+.login-container {
+    background: linear-gradient(to bottom right, #ff69b4, #8a2be2); /* Violet and Pink Gradient */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the login form title */
+h1 {
+    color: #000000; /* Black text */
+}
+
+/* Style for input boxes */
+.input-box {
+    margin: 10px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000000; /* Black text */
+}
+
+/* Style for the login button */
+button {
+    background-color: #ffffff; /* White background for the button */
+    color: #000000; /* Black text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #000000; /* Black text on hover */
+}

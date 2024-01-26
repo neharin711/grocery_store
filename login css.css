@@ -1,0 +1,53 @@
+/* Style for the body and background */
+body {
+    background: linear-gradient(to bottom right, #ff69b4, #8a2be2); /* Violet and Pink Gradient */
+    font-family: "Your Desired Font", sans-serif; /* Change "Your Desired Font" to your preferred font family */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Style for the input boxes */
+.input-box {
+    margin: 10px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 8px; /* Reduced padding for smaller input boxes */
+    border: 2px solid #b9b3a9; /* Light brown border */
+    border-radius: 6px; /* More rounded corners for a softer appearance */
+    font-size: 16px;
+    color: #000000; /* Black text color */
+}
+
+/* Style for the login button */
+button {
+    background-color: #ffffff; /* White background for the button */
+    color: #000000; /* Black text color */
+    padding: 12px 24px; /* Larger padding for an elegant feel */
+    border: none;
+    border-radius: 6px; /* More rounded corners for a softer look */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px; /* Larger font size for button text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+    margin-top: 15px;
+}
+
+/* Style for link hover effect */
+a {
+    text-decoration: none;
+    color: #000000; /* Black text color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #4a331f; /* Slightly darker brown on hover */
+}

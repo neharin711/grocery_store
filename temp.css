@@ -1,0 +1,53 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* Styles for the "Popular Product" section */
+#popular-product {
+    padding: 20px;
+}
+
+.product-heading {
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-box {
+    width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-box strong {
+    display: block;
+    margin: 10px 0;
+}
+
+.cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .product-box {
+        width: 100%;
+    }
+}

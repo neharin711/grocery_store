@@ -1,0 +1,100 @@
+/* style.css */
+
+/* Apply a background color to the entire page */
+body {
+  background: linear-gradient(to bottom right, #ff69b4, #8a2be2); /* Violet and Pink Gradient */
+  font-family: "Your Desired Font", sans-serif; /* Change "Your Desired Font" to the desired font family */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Vertically center the form */
+}
+
+/* Style the form container */
+.wrapper {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff; /* White */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Style the form title */
+.wrapper h2 {
+  color: #000000; /* Black */
+  margin-bottom: 20px;
+}
+
+/* Style the input boxes */
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff; /* White */
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Style the policy checkbox and label */
+.policy {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.policy input {
+  margin-right: 10px;
+}
+
+/* Style the "Register Now" button */
+.input-box.button input[type="Submit"] {
+  background: linear-gradient(to bottom right, #ff69b4, #8a2be2); /* Violet and Pink Gradient */
+  color: #000000; /* Black */
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.input-box.button input[type="Submit"]:hover {
+  background: linear-gradient(to bottom right, #ff1493, #9400d3); /* Slightly darker violet and pink on hover */
+}
+
+/* Style the "Login" button */
+.input-box.button.login-button input[type="Submit"] {
+  background: linear-gradient(to bottom right, #ff69b4, #8a2be2); /* Violet and Pink Gradient */
+  color: #000000; /* Black */
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.input-box.button.login-button input[type="Submit"]:hover {
+  background: linear-gradient(to bottom right, #f76d7f, #f26dd9); /* Slightly darker violet and pink on hover */
+}
+
+/* Style the "Already have an account?" text and link */
+.text {
+  margin-top: 10px;
+}
+
+.text a {
+  text-decoration: none;
+  color: #110101; /* White */
+  font-weight: bold;
+}
+
+.text a:hover {
+  text-decoration: underline;
+}
